@@ -1,0 +1,164 @@
+
+body {
+	background:url('../images/bg.jpg') repeat-x;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+#header {
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+/* Navigation Styling */
+#nav {
+	float: right;
+	font-family: Georgia, serif;
+	font-size: 22px;
+    margin-right: 2px;
+	margin-top: 40px;
+}
+#nav li {
+	display: inline;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: #333333;
+	border-left: 1px solid gray;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#nav li a:hover {
+	text-decoration: underline;
+	color: #941516;
+}
+
+#nav li.first a {
+	
+	border-left: none;
+	padding-left: 15px;
+}
+
+
+/*end Navigation Styling*/
+
+#splash {
+	margin-bottom: 25px;
+	clear: both;
+}
+
+
+#mission {
+	width: 700px;
+	padding: 15px 0px 15px 15px;
+	background: url(../images/mission-bg.jpg) repeat-x #941516;
+	color: #ede9e9;
+	float: left;
+	
+}
+#mission h2 {
+	font-size: 45px;
+	line-height: 1.3em;
+}
+#mission p {
+	font-size: 26px;
+	line-height:1.5em;
+	font-family: 'Advent Pro', sans-serif;
+}
+#mission-quote {
+	float: left;
+	width: 440px;
+}
+#mission-pic {
+	width: 201px;
+	position: relative;
+	float: right;
+}
+/* Twitter Styling */
+#twitter {
+	width: 220px;
+	float: left;
+	margin-left: 20px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+#twitter-link {color:#81A300;}
+/* END Twitter Style */
+#row {
+	margin-top: 40px;
+	border-top: 1px solid #941516;
+	padding: 40px 0px 80px 10px;
+	background: rgba(255, 255, 255, 0.6);
+	-moz-box-shadow:    0 4px 5px 1px #CCCCCC;
+  -webkit-box-shadow: 0 4px 5px 1px #CCCCCC;
+  box-shadow: 0 4px 5px 1px #CCCCCC;
+}
+
+#row h2 {
+	font-size: 30px;
+	text-indent: 75px;
+	line-height: 75px;
+	
+	
+}
+
+#row h2 a {
+	text-decoration: none;
+	color: #941516;
+}
+#row h2 a:hover {
+	text-decoration: underline;
+}
+h2.services {
+	background:url(../images/clock.png) no-repeat;
+	}
+h2.team{
+	background:url(../images/team.png) no-repeat;
+}
+h2.contact{
+	background:url(../images/speak.png) no-repeat;
+}
+.features {
+	width: 300px;
+	float: left;
+	margin-left: 20px;
+}
+
+.feature1 {
+	width: 300px;
+	float: left;
+	
+}
+
+#footer {
+	border-top: 1px solid gray;
+	padding-top: 20px;
+}
+
+/* Clear fix */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* End Clear fix */
